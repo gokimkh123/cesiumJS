@@ -1,6 +1,6 @@
 // client.js
 
-Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI0NGRlOGQxNC1hYTAxLTQ5MDktODdkMi03YjUyMzIwZmYzN2QiLCJpZCI6Mjk4NDc2LCJpYXQiOjE3NDU5OTA2NzN9.cqhKVZaOlhXsmbLBHyKJxwL3Td00RPajPfiUhKvQWbY';
+Cesium.Ion.defaultAccessToken = '';
 
 // 'cesiumContainer'를 참조해 HTML 요소의 Cesium Viewer를 초기화한다.
 const viewer = new Cesium.Viewer('cesiumContainer', {
