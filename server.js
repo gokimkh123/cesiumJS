@@ -6,6 +6,8 @@ const port = 3000;
 
 // 'public' 폴더에서 정적 파일 제공
 app.use(express.static(path.join(__dirname, 'public')));
+
+// 'models' 풀더에서 정적 파일 제공
 app.use('/models', express.static(path.join(__dirname, 'models')));
 
 app.get('/', (req, res) => {
