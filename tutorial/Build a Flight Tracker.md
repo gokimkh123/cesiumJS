@@ -1,5 +1,5 @@
 
-# Tutorial
+# [Tutorial](DSL/NIA/빛공해과제정리)
 visualize a real flight from Busan to Seoul, with radar data collected by [FlightRadar24](https://cesium.com/blog/2020/08/13/flightradar24/).
 
 
@@ -9,7 +9,7 @@ visualize a real flight from Busan to Seoul, with radar data collected by [Fligh
 2. your_token_here -> Replace **your access token**
 3. PREVIEW click and select Close preview pane || Preview in a new window
 
-![1](1.png)
+![1](pic/1.png)
 
 ```javascript
 // index.html
@@ -31,9 +31,7 @@ const viewer = new Cesium.Viewer('cesiumContainer');
 ```
 
 ## Configure auto-refresh
-![2](2.png)
-
-
+![2](pic/2.png)
 check Toggle auto refresh 
 
 # Step 2: Add global 3D buildings and terrain
@@ -66,7 +64,7 @@ Cesium.createOsmBuildingsAsync().then(function(buildings) {
 });
 ```
 
-![3](3.png)
+![3](pic/3.png)
 
 
 # Step 3: Visualize individual samples
@@ -89,3 +87,4 @@ const pointEntity = viewer.entities.add({
 viewer.flyTo(pointEntity);
 ```
 
+![4](pic/4.png)

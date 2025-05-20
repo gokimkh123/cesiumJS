@@ -1,4 +1,4 @@
-#  CesiumJS IntelliJ기준 개발환경 준비
+#  [CesiumJS IntelliJ기준 개발환경 준비](NIA/빛공해과제정리)
 
 
 CesiumJS은 두 가지 방식이 있다.

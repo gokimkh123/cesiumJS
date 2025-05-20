@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dong-A University Seunghak Campus"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [128.96923, 35.11761],
+            [128.97055, 35.11679],
+            [128.97144, 35.11777],
+            [128.97092, 35.11866],
+            [128.96961, 35.11876],
+            [128.96923, 35.11761]
+          ]
+        ]
+      }
+    }
+  ]
+}
